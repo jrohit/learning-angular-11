@@ -1,0 +1,8 @@
+<div class="angular-logic">
+    <div class="radioLogic">
+        <input value="male" type="radio" name="genderRadio" checked (click)="selectGender('Male')" /> Male
+        <input value="female" type="radio" name="genderRadio" (click)="selectGender('Female')"/> Female
+        <input value="others" type="radio" name="genderRadio" (click)="selectGender('Others')"/> Others
+    </div>
+    <p>Selected Gender - {{gender}}</p>
+</div>
